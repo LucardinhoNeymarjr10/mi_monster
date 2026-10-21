@@ -42,5 +42,119 @@ footer{ width: 100%; height: 200px; background-color: black; color: white; text-
     ul{
         flex-direction: column;
     }
-    contenedor 
+ 
+}
+
+.cuerpo{
+margin: 0;
+height: 100vb;
+display: flex;
+justify-content: center;
+background_color: #f2f2f2;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.monstruo {
+ width: 200px;   
+height: 310px;
+background: #66cced;
+border: 5px solid #000000;
+border-radius: 45% 45% 40% 40%;
+position: relative;
+box-shadow: intet 0 -10px 0 #239bd0
+}
+
+.ojos {
+
+display: flex;
+justify-content: center;
+gap: 12px;
+margin-top: 45px;
+}
+
+.ojo {
+width: 80px;
+height: 80px;
+background: rgb(250, 7, 7);
+border: 5px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.pupila {
+width: 40px;
+height: 40px;
+background: #000000;
+border: 3px solid #000000;
+border-radius: 60%;
+position: relative;
+}
+
+.pupila::after {
+ content: "";   
+ width: 12px;
+height: 12px;
+background: rgb(250, 250, 250);
+border-radius: 50%;
+position: absolute;
+top: 5px;
+left: 7px;
+}
+
+.nariz {
+ width: 30px;   
+ height: 12px;
+ background: #010101;
+ border-radius: 50%;
+ margin: 5px auto;
+}
+
+.boca {
+  width: 175px;  
+  height: 35px;
+  background: #ffffff;
+  border: 4px solid #173c64;
+  border-radius: 10px 10px 35px 35px;
+  margin: 12px auto;
+  text-align: center;
+}
+
+.dientes {
+ color: #030303;   
+ font-size: 19px;
+}
+
+.brazos {
+ display: flex;   
+ justify-content: space-between;
+ position: absolute;
+ width: 320px;
+ left: -20px;
+ bottom: 45px;
+}
+
+.brazo {
+ width: 35px;
+ height: 65px;
+ background: #6dd8fc;
+ border: 4px solid #000000;
+ border-radius: 50%;
+}
+
+.pies {
+display: flex;  
+justify-content: space-around;  
+position: absolute;
+border-bottom: -10px;
+width: 100%;
+}
+
+.pie {
+ width: 65px;   
+ height: 30px;
+ background: #35bce9;
+ border: 4px solid #173c64;
+ border-radius: 50%;
 }
